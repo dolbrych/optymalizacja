@@ -1,0 +1,8 @@
+Dzielimy nasz graf na dwa zbiory i rozważmy ten, który ma więcej wierzchołków.
+Niech i-ty wierzchołek będzie określony przez x_{i}, zmienną binarną .Maksymalizujemy sume x_{i}.
+Zmienne są całkowitoliczbowe, binarne .Rozważmy sobie sumę a_{i}*x_{i}, gdzie a_{i} jest liczbą krawędzi wychodzący z i-tego wierzchołka. Naszym ograniczeniem jest by suma a_{i}*x_{i} <= n, gdzie n
+oznacza liczbę wierzchołków w tym drugim zbiorze wierzchołków tego grafu.
+Na podstawie twierdzenia z wykładu, wiemy ze macierz w problemie całkowitoliczbowym będzie unimodularna,
+czyli wystarczy rozwiązać problem zrelaksowany i rozwiązanie będzie takie samo.
+W problemie pokryć wierzchołkowych jest to problem znalezienia wierzchołkow z których wychodzi jak najmniej krawędzi
+(lecz co najmniej jedna).
